@@ -1,0 +1,64 @@
+body {
+  background-color: #000; /* Fondo negro */
+  color: #fff; /* Texto de color blanco */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff; /* Títulos de color blanco */
+}
+
+p {
+  color: #fff; /* Párrafos de color blanco */
+}
+
+a {
+  color: #fff;
+}
+
+.icono-avion {
+  background-color: aqua;
+  width: 100%;
+  color: white;
+  padding: 10px; /* Ajustar el padding */
+  margin-bottom: 60px;
+}
+
+/* Asegúrate de que la clase 'my-3' esté definida y aplicada correctamente si quieres usarla para el margen */
+.my-3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.parrafo-justificado {
+  text-align: justify;
+}
+/* CSS para el navbar */
+.navbar {
+  color: var(--white);
+  overflow-y: auto; /* Permite el desplazamiento vertical si el contenido es más largo que la altura */
+}
+
+/* CSS para cambiar el estilo del navbar en el desplazamiento */
+.navbar-scrolled {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Sombra para el navbar al desplazarse */
+}
+.navbar-toggler {
+  color: #ffffff; /* Esto cambia el color del icono */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>"); /* Esto cambia el color de las rayas a blanco */
+}
+
+.card {
+  margin-bottom: 60px; /* Ajusta el valor del margen */
+}
+.card-body {
+  background-color:cyan; /* Este es el código de color para azul celeste */
+  color: #ffffff; /* Esto cambiará el color del texto a blanco si lo deseas */
+  padding: 10px; /* Agrega un poco de espacio alrededor del texto */
+}
