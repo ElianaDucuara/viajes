@@ -10,6 +10,11 @@ h4,
 h5,
 h6 {
   color: #fff; /* Títulos de color blanco */
+  
+
+}
+.display-3 {
+    font-weight: bold;
 }
 
 p {
@@ -21,7 +26,7 @@ a {
 }
 
 .icono-avion {
-  background-color: aqua;
+  background-color: #40E0D0;
   width: 100%;
   color: white;
   padding: 10px; /* Ajustar el padding */
@@ -58,7 +63,21 @@ a {
   margin-bottom: 60px; /* Ajusta el valor del margen */
 }
 .card-body {
-  background-color:cyan; /* Este es el código de color para azul celeste */
+  background-color:#40E0D0; /* Este es el código de color para azul celeste */
   color: #ffffff; /* Esto cambiará el color del texto a blanco si lo deseas */
   padding: 10px; /* Agrega un poco de espacio alrededor del texto */
+}
+.btn{
+    background-color:#40E0D0;
+}
+.bg-cyan {
+    background-color: #40E0D0; /* Ajusta el color según necesites */
+}
+
+.social-icons a {
+    font-size: 1.5em; /* Ajusta el tamaño de los íconos según necesites */
+}
+.viaje {
+
+    font-weight: bold;
 }
