@@ -1,3 +1,8 @@
+*{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
 body {
   background-color: #000; /* Fondo negro */
   color: #fff; /* Texto de color blanco */
@@ -10,11 +15,9 @@ h4,
 h5,
 h6 {
   color: #fff; /* Títulos de color blanco */
-  
-
 }
 .display-3 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 p {
@@ -26,7 +29,7 @@ a {
 }
 
 .icono-avion {
-  background-color: #40E0D0;
+  background-color: #40e0d0;
   width: 100%;
   color: white;
   padding: 10px; /* Ajustar el padding */
@@ -47,10 +50,10 @@ a {
   overflow-y: auto; /* Permite el desplazamiento vertical si el contenido es más largo que la altura */
 }
 
-/* CSS para cambiar el estilo del navbar en el desplazamiento */
-.navbar-scrolled {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Sombra para el navbar al desplazarse */
+.navbar-brand{
+  font-weight: bold;
 }
+
 .navbar-toggler {
   color: #ffffff; /* Esto cambia el color del icono */
 }
@@ -59,25 +62,52 @@ a {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>"); /* Esto cambia el color de las rayas a blanco */
 }
 
+.carousel-item img {
+  height: 900px; /* Ajusta esta altura al tamaño deseado */
+  background-size: cover;
+  object-fit: cover; /* La imagen se ajustará dentro del contenedor sin cortarse */
+  width: 100%; /* Asegura que la imagen se extienda a lo ancho del contenedor */
+}
+
 .card {
   margin-bottom: 60px; /* Ajusta el valor del margen */
+  display: flex;
+  flex-direction: column;
 }
 .card-body {
-  background-color:#40E0D0; /* Este es el código de color para azul celeste */
+  background-color: #40e0d0; /* Este es el código de color para azul celeste */
   color: #ffffff; /* Esto cambiará el color del texto a blanco si lo deseas */
-  padding: 10px; /* Agrega un poco de espacio alrededor del texto */
+  padding: 20px; /* Agrega un poco de espacio alrededor del texto */
+  flex-grow: 1;
 }
-.btn{
-    background-color:#40E0D0;
+.btn {
+  background-color: #40e0d0;
 }
 .bg-cyan {
-    background-color: #40E0D0; /* Ajusta el color según necesites */
+  background-color: #40e0d0; /* Ajusta el color según necesites */
 }
 
 .social-icons a {
-    font-size: 1.5em; /* Ajusta el tamaño de los íconos según necesites */
+  font-size: medium 100px; /* Ajusta el tamaño de los íconos según necesites */
 }
 .viaje {
+  font-weight: bold;
+}
+.iconos-redes {
+  height: 100%;
+  padding: 10px;
+  font: size 400px;
+}
 
-    font-weight: bold;
+.card-img-top {
+  width: top; /* Keep the original width */
+  height: 203px !important; /* Set the new fixed height */
+}
+
+.card-text {
+  padding: 20px; /* Adjust padding as needed */
+}
+.container {
+    padding-top: 0%;
+    margin-top: 0px;
 }
