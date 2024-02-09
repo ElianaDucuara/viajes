@@ -22,3 +22,16 @@ function unhighlightCard(cardElement) {
 }
 
 
+// resetear formulario principal.js
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Seleccionamos el formulario por su ID
+  var form = document.getElementById('tuFormularioId'); // Asegúrate de asignar un ID a tu <form>
+
+  form.addEventListener('submit', function(event) {
+    event.preventDefault(); // Detiene el envío del formulario
+
+    // Limpia los campos del formulario
+    form.reset();
+  });
+});
