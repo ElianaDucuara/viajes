@@ -28,13 +28,6 @@ a {
   color: #fff;
 }
 
-.icono-avion {
-  background-color: #40e0d0;
-  width: 100%;
-  color: white;
-  padding: 10px; /* Ajustar el padding */
-  margin-bottom: 60px;
-}
 
 /* Asegúrate de que la clase 'my-3' esté definida y aplicada correctamente si quieres usarla para el margen */
 .my-3 {
@@ -61,12 +54,13 @@ a {
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>"); /* Esto cambia el color de las rayas a blanco */
 }
-
-.carousel-item img {
-  height: 900px; /* Ajusta esta altura al tamaño deseado */
-  background-size: cover;
-  object-fit: cover; /* La imagen se ajustará dentro del contenedor sin cortarse */
-  width: 100%; /* Asegura que la imagen se extienda a lo ancho del contenedor */
+/*Card*/
+.icono-avion {
+  background-color: #40e0d0;
+  width: 100%;
+  color: white;
+  padding: 10px; /* Ajustar el padding */
+  margin-bottom: 60px;
 }
 
 .card {
@@ -79,6 +73,11 @@ a {
   color: #ffffff; /* Esto cambiará el color del texto a blanco si lo deseas */
   padding: 20px; /* Agrega un poco de espacio alrededor del texto */
   flex-grow: 1;
+}
+
+.card-highlight {
+  background-color: #c5428c; /* color de fondo al resaltar */
+  /* Otros estilos para la tarjeta resaltada */
 }
 .btn {
   background-color: #40e0d0;
@@ -111,3 +110,4 @@ a {
     padding-top: 0%;
     margin-top: 0px;
 }
+

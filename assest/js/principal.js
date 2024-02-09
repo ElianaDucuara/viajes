@@ -5,3 +5,20 @@ $(window).on('scroll', function() {
       $('.navbar').removeClass('navbar-scrolled'); // Remover clase para sombra
     }
   });
+
+
+  document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('btn').addEventListener('click', function() {
+        alert('Esta seguro de enviar los datos?');
+    });
+});
+
+function highlightCard(cardElement) {
+  cardElement.classList.add('card-highlight');
+}
+
+function unhighlightCard(cardElement) {
+  cardElement.classList.remove('card-highlight');
+}
+
+
